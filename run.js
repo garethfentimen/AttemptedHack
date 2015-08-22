@@ -1,7 +1,6 @@
 var https = require('https');
 var querystring = require('querystring');
 
-var url = 'https://www.spotify.com/uk/xhr/json/reset-password.php';
 var username = 'email@gmail.com';
 
 var formData = querystring.stringify({
